@@ -115,3 +115,7 @@ for(let i = 51; i <= 80; i += 2)
 {
     console.log(i);
 }
+// array use to math min and max;
+const array1 = [2, 3, 1,2,3];
+
+console.log(Math.max(...array1));

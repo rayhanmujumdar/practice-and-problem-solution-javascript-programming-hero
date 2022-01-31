@@ -109,3 +109,9 @@ function threeSum(threeNumber){
 let threeNumber = [20,30,40];
 let sumResult = threeSum(threeNumber);
 console.log("Three number of Sum result is = ",sumResult);
+
+//  ৫০ থেকে ৮০ এর মধ্যে যতো বিজোড় সংখ্যা আছে সেগুলাকে দেখাবে। 
+for(let i = 51; i <= 80; i += 2)
+{
+    console.log(i);
+}

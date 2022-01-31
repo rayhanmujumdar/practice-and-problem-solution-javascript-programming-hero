@@ -5,19 +5,19 @@ num.unshift(28,30);
 let SumArray = 0;
 for(i = 0;i < num.length;i++){
     let collectNumber = num[i];
-    PulsArray = PulsArray + num[i];
+    PulsArray = SumArray + num[i];
     console.log(collectNumber);
 }
-console.log(PulsArray);
+console.log(SumArray);
 function oddEvenArrayCollection(PulsArray){
-    if(PulsArray % 2 == 0){
+    if(SumArray % 2 == 0){
         return "This Array is 'Even'";
     }
-    if(PulsArray % 2 == 1){
+    if(SumArray % 2 == 1){
         return "This Array is 'Odd'";
     }
 }
-let result = oddEvenArrayCollection(PulsArray);
+let result = oddEvenArrayCollection(SumArray);
 console.log(result);
 
 // celsius to fahrenheit;
